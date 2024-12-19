@@ -1,0 +1,22 @@
+# Hide sensitive data
+*.tfstate
+*.tfstate.backup
+terraform.tfstate.encryption_key
+
+# Hide generated files
+.terraform
+*.tfplan
+
+# Hide local configuration files
+terraform.tfvars
+terraform.tfvars.local
+
+# Hide generated documentation
+*.html
+
+# Hide IDE-specific files
+.vscode/
+.idea/
+
+# Hide temporary files
+*~
